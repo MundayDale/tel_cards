@@ -2,11 +2,11 @@ export default [
     
 
     {
-        id: "google-classroom",
-        name: "Google Classroom",
-        url: "https://classroom.google.com",
-        tagline: "Classroom allows educators to manage classes, set assignments and interact with students all in one place.",
-        description: "Classroom connects students and instructors using tools such as Google Docs, Calendar, Drive, and Forms to build a streamlined platform for learning. Teachers can create classes, distribute assignments, communicate and stay organized whilst students can see their assignments on their To-Do page, share resources and interact in the class stream.",
+        id: "Video Scribe",
+        name: "VideoScribe",
+        url: "https://voicethread.com/",
+        tagline: "Replace text-only discussions.",
+        description: "VoiceThread offers a natural online interaction that lends itself to students presenting & defending their work before experts and peers."
         colour: "#FDBC45",
         assets: {
             logo: {
@@ -21,7 +21,9 @@ export default [
         activities: [
             "connect",
             "collaborate",
-            "curate"
+            "curate", 
+            "Assess"
+    
         ],
         uses: [
             "Assessment",
@@ -29,10 +31,10 @@ export default [
             "Feedback"
         ],
         submitter: {
-            name: "A Rhead",
-            title: "Learning Developer"
+            name: "D Munday",
+            title: "Digital Learning Facilitator"
         },
-        videoURL: "https://www.youtube.com/embed/UPgnim0Q5cs?rel=0&amp;showinfo=0?&cc_load_policy=1",
+        videoURL: "https://www.youtube.com/embed/9PuJJ3purvw",
         framework: {
             enhance: "Set up a class and keep it organised by applying topics to posts. Structure materials by week, lesson, theme or assignment.",
             empower: "Add learning resources in Google formats, amending sharing settings for students to edit or add comments.",
